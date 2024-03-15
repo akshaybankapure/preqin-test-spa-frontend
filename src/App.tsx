@@ -8,8 +8,9 @@ import InvestorPage from './components/InvestorPage';
 const App: React.FC = () => {
   return (
     <Router>
+    <h3>Preqin Test App</h3>
     <div className="container">
-      
+    
       <Routes>
         <Route path="/" element={<InvestorsTable />} />
         <Route path="/investors/:investorId" element={<InvestorPage />} />

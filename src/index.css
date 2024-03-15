@@ -71,10 +71,8 @@ button:focus-visible {
   padding-top: 50px;
   min-width: 700px;
   display: flex;
-  align-items: flex-start; 
   overflow: hidden;
   justify-content: center;
-  /* align-items: center; */
   height: 100vh;
 }
 
@@ -132,8 +130,8 @@ tr:hover {
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  appearance: none; /* Remove default arrow icon */
-  background-image: url('data:image/svg+xml;utf8,<svg fill="%23888" viewBox="0 0 24 24" width="18" height="18"><path d="M7 10l5 5 5-5z"/></svg>'); /* Custom arrow icon */
+  appearance: none;
+  
   background-repeat: no-repeat;
   background-position: right 8px center;
   background-size: 18px;
