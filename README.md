@@ -1,6 +1,6 @@
 first run the backend. Then, follow these steps.
 
-install noejs
+install nodejs
 
 npm install 
 
